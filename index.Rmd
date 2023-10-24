@@ -1,0 +1,25 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Selina's awesome website
+
+Here's a gif of Elmo
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+
+You can add texts and lists 
+
+You can also still use R
+
+```{r}
+
+```
+
+This is a [link] (https://www.google.com/). Here is a link to the [about](about.html) page
+
