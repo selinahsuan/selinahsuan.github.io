@@ -18,14 +18,15 @@ Load data
 data(instacart)
 ```
 
-# Bar Chart
-
 Filter data
 ```{r}
 instacart = 
   instacart |> 
   select (department, aisle, order_hour_of_day, order_number, days_since_prior_order)
 ```
+
+# Bar Chart
+
 
 Plot bar chart
 ```{r}
