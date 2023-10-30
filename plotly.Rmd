@@ -1,0 +1,66 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r}
+library(tidyverse)
+library(plotly)
+
+library(p8105.datasets)
+```
+
+Load data
+```{r}
+data(instacart)
+```
+
+# Bar Chart
+
+Filter data
+```{r}
+instacart = 
+  instacart |> 
+  select (department, aisle, order_hour_of_day, order_number, days_since_prior_order)
+```
+
+Plot bar chart
+```{r}
+instacart |> 
+  count(department) |> 
+  filter(department != "missing") |> 
+  mutate(department = fct_reorder(department, n)) |> 
+  plot_ly (x = ~department, y = ~n, color = ~department,
+         type = "bar", colors = "viridis")
+```
+
+
+# Box Plot
+
+```{r}
+instacart |>
+  filter(department != "missing") |> 
+  mutate(department = fct_reorder(department, order_hour_of_day)) |>
+  plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department,
+          type = "box", colors = "viridis")
+```
+
+
+# Scatter Plot 
+
+```{r}
+instacart_avg = 
+  instacart |>
+  group_by(order_number) |>
+  summarise(avg_days_since_prior_order = mean(days_since_prior_order, na.rm = TRUE))
+```
+
+```{r}
+instacart_avg |>
+  plot_ly(x = ~order_number, y = ~avg_days_since_prior_order, color = ~order_number,
+      type = "scatter", mode = "markers", colors = "viridis")
+```
+
