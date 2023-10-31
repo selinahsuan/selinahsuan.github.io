@@ -1,25 +1,89 @@
 ---
-title: "Selina Hsuan"
+title: "SELINA HSUAN"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Selina's awesome website
+# Education
 
-Here's a gif of Elmo
+**Columbia University Mailman School of Public Health** *Expected May 2024*
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+Master of Public Health, Health Policy and Management, Certificate in Applied Biostatistics and Public Health Data Science
 
 
-You can add texts and lists 
 
-You can also still use R
+**University of California, Los Angeles** *June 2020*
 
-```{r}
+Bachelor of Science in Psychobiology, Minor in Global Health 
 
-```
 
-For more information about Selina's professional background: [Selina's LinkedIn] (https://www.linkedin.com/in/selinahsuan/). Here is a link to the [about](about.html) page. 
+
+# Experience 
+
+**Graduate Teaching Assistant, Health Economics**      	  		*Sep 2023 - Present*
+
+*Columbia University Mailman School of Public Health, New York, NY*
+
+* Collaborate with professor and TA team to grade assignments and exams, provide one-on-one and group support to students during office hours, and provide constructive feedback to enhance student learning for a large class of 120 students 
+
+**Intern, World Health Organization Collaborating Centre for Mental Health, Disability and Human Rights**        	                        *May 2023 - Jul 2023*
+
+*University of Nottingham, Nottingham, United Kingdom*
+
+* Performed qualitative content analysis of 20 national and international dementia plans and strategies from 2006 to the present day, in relation to the principles of the UN Convention on the Rights of Persons with Disabilities (CRPD) and human rights 
+
+* Conducted literature search for dementia community services in over 50 countries in the Western Pacific and Southeast Asia
+
+**Lab Manager, Research**							                        *Apr 2021 - Jul 2022*
+
+*Vaxcyte, Inc., Foster City, CA & San Carlos, CA*
+
+* Initiated, strategized, and coordinated moving logistics with internal departments and external vendors to complete a complex relocation of a 15-person, research laboratory to a newly constructed 6.25-acre facility  
+
+* Created safety protocols and managed laboratory equipment and chemical inventory of sensitive materials under compliance with regulations to ensure transportation to designated location in a multi-tenant building  
+
+* Established new operational processes and increased efficiency by forecasting needed training, ongoing laboratory maintenance, and installations for equipment valued up to $100,000 
+
+* Facilitated training modules on lab safety and reduced inefficiencies in onboarding and training schedules for over 30 new laboratory hires by collaborating with the human resources department 
+
+* Developed daily operations by coordinating with vendors, including logistics of domestic and international shipping and receiving of laboratory samples, to maintain a sufficient and safe supply of critical materials 
+
+**Optometric Assistant**  								                    *Aug 2020 - Apr 2021*  
+*Global Eyecare Optometry, San Jose, CA*
+
+* Managed daily operations and efficiency of a private clinic by collaborating with physicians, clinical staff, patients, and external optical labs and eye frame vendors 
+
+* Created a recurring customer base by providing personalized lens and frame recommendations based on patient preference and lifestyle and maintained high-quality client service 
+
+* Prepared patient medical records, and submitted billing documents and medical claims to Medicare and private insurance companies to deliver quality optometric services  
+
+* Provided direct patient care by scheduling appointments, administering pre-exam tests, and answering inquiries 
+
+**Research Assistant**									      	              *Jan 2019 - Jun 2020* 
+*Diet, Stress and Health (DiSH) Lab, University of California, Los Angeles*
+
+*Seitz, B. M., Blaisdell, A. P., & Tomiyama, A. J. (2019). Calories count: Memory of eating is evolutionarily special. Journal of Memory and Language, 117, 104192.* 
+
+* Conducted research by contributing over 150 hours to data collection and study design of novel behavioral task to investigate memory of eating and its relationship to memory of other behaviors
+
+* Presented results at the UCLA Psychology Undergraduate Research Conference (PURC) and received acknowledgement for contributions to the Journal of Memory and Language publication
+
+# Skills
+
+* Microsoft Office (Excel, PowerPoint, Word)
+
+* Statistical Programming Software (STATA, R, SAS)
+
+* SQL for Data Querying and Analysis 
+
+* Languages: Fluent in Mandarin Chinese  
+
+
+
+
+
+
+For more information about Selina's professional background: [Selina's LinkedIn](https://www.linkedin.com/in/selinahsuan/). Here is a link to the [about](about.html) page. 
 

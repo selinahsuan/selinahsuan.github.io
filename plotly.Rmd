@@ -53,14 +53,9 @@ instacart |>
 # Scatter Plot 
 
 ```{r}
-instacart_avg = 
-  instacart |>
+instacart |>
   group_by(order_number) |>
-  summarise(avg_days_since_prior_order = mean(days_since_prior_order, na.rm = TRUE))
-```
-
-```{r}
-instacart_avg |>
+  summarise(avg_days_since_prior_order = mean(days_since_prior_order, na.rm = TRUE)) |> 
   plot_ly(x = ~order_number, y = ~avg_days_since_prior_order, color = ~order_number,
       type = "scatter", mode = "markers", colors = "viridis")
 ```
