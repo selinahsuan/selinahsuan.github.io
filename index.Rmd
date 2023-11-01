@@ -13,5 +13,5 @@ Originally from the San Francisco Bay Area, Selina completed her undergraduate s
 
 Driven by her passion for public health and a commitment to data-driven decision-making, Selina is on a trajectory to make a meaningful impact in the field. She is dedicated to harnessing her knowledge, skills, and experiences to address complex health challenges, shape effective policies, and contribute to the betterment of health outcomes.
 
-More information about Selina's academic and professional background can be found on her [LinkedIn](https://www.linkedin.com/in/selinahsuan/) and [About](about.html) page. A project for Fall 2023 Data Science course can be found on the [Plotly](plotly.html) and [Dashboard](dashboard.html) page. 
+More information about Selina's academic and professional background can be found on her [LinkedIn](https://www.linkedin.com/in/selinahsuan/) and [About](about.html) page. An example of work from her Fall 2023 Data Science course can be found on the [Plotly](plotly.html) page and [Dashboard](dashboard.html).
 

@@ -11,7 +11,7 @@ navbar:
       href: plotly.html
     - text: "Dashboard"
       href: dashboard.html 
-    - text: "LinkedIn"
+    - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/selinahsuan/
     - icon: fa-envelope fa-lg
       href: mailto:<sh4354@cumc.columbia.edu>
