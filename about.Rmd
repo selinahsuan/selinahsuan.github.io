@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: ""
 output: 
   html_document:
     toc: true
@@ -7,12 +7,11 @@ output:
 ---
 
 
-# Education
+## Education
 
 **Columbia University Mailman School of Public Health** *Expected May 2024*
 
 Master of Public Health, Health Policy and Management, Certificate in Applied Biostatistics and Public Health Data Science
-
 
 
 **University of California, Los Angeles** *June 2020*
@@ -21,13 +20,14 @@ Bachelor of Science in Psychobiology, Minor in Global Health
 
 
 
-# Experience 
+## Experience 
 
 **Graduate Teaching Assistant, Health Economics**      	  		*Sep 2023 - Present*
 
 *Columbia University Mailman School of Public Health, New York, NY*
 
 * Collaborate with professor and TA team to grade assignments and exams, provide one-on-one and group support to students during office hours, and provide constructive feedback to enhance student learning for a large class of 120 students 
+
 
 **Intern, World Health Organization Collaborating Centre for Mental Health, Disability and Human Rights**        	                        *May 2023 - Jul 2023*
 
@@ -36,6 +36,8 @@ Bachelor of Science in Psychobiology, Minor in Global Health
 * Performed qualitative content analysis of 20 national and international dementia plans and strategies from 2006 to the present day, in relation to the principles of the UN Convention on the Rights of Persons with Disabilities (CRPD) and human rights 
 
 * Conducted literature search for dementia community services in over 50 countries in the Western Pacific and Southeast Asia
+
+
 
 **Lab Manager, Research**							                        *Apr 2021 - Jul 2022*
 
@@ -51,6 +53,8 @@ Bachelor of Science in Psychobiology, Minor in Global Health
 
 * Developed daily operations by coordinating with vendors, including logistics of domestic and international shipping and receiving of laboratory samples, to maintain a sufficient and safe supply of critical materials 
 
+
+
 **Optometric Assistant**  								                    *Aug 2020 - Apr 2021*  
 *Global Eyecare Optometry, San Jose, CA*
 
@@ -62,7 +66,10 @@ Bachelor of Science in Psychobiology, Minor in Global Health
 
 * Provided direct patient care by scheduling appointments, administering pre-exam tests, and answering inquiries 
 
-**Research Assistant**									      	              *Jan 2019 - Jun 2020* 
+
+
+**Research Assistant**									      	          *Jan 2019 - Jun 2020* 
+
 *Diet, Stress and Health (DiSH) Lab, University of California, Los Angeles*
 
 *Seitz, B. M., Blaisdell, A. P., & Tomiyama, A. J. (2019). Calories count: Memory of eating is evolutionarily special. Journal of Memory and Language, 117, 104192.* 
@@ -71,13 +78,19 @@ Bachelor of Science in Psychobiology, Minor in Global Health
 
 * Presented results at the UCLA Psychology Undergraduate Research Conference (PURC) and received acknowledgement for contributions to the Journal of Memory and Language publication
 
-# Skills
+
+
+## Skills
+
+* R (Programming Language)
+
+* SAS (Programming Language)
+
+* SQL 
+
+* Stata
 
 * Microsoft Office (Excel, PowerPoint, Word)
-
-* Statistical Programming Software (STATA, R, SAS)
-
-* SQL for Data Querying and Analysis 
 
 * Languages: Fluent in Mandarin Chinese  
 

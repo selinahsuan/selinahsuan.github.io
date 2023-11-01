@@ -8,11 +8,11 @@ output:
 
 ![](images/photo.jpeg)
 
-Selina completed her undergraduate studies at UCLA, earning a Bachelor of Science degree in Psychobiology with a minor in Global Health in 2020. Currently, Selina is pursuing a Master of Public Health (MPH) at Columbia University Mailman School of Public Health. Her academic focus lies within the Health Policy and Management department, where she's diving deep into public health policy, and she's also actively pursuing a certificate in Applied Biostatistics and Public Health Data Science.
+Selina is currently pursuing a Master of Public Health (MPH) at Columbia University Mailman School of Public Health. Her academic focus lies within the Health Policy and Management department, with a particular interest in mental health and femtech. She is also actively pursuing a certificate in Applied Biostatistics and Public Health Data Science.
 
-Selina's passion for public health, combined with her education and commitment to data-driven decision-making, has propelled her on a trajectory to make a meaningful impact in the field. She is committed to harnessing her knowledge, skills, and experiences to address complex health challenges, shape effective policies, and contribute to the betterment of health outcomes.
+Originally from the San Francisco Bay Area, Selina completed her undergraduate studies at UCLA, earning a Bachelor of Science degree in Psychobiology with a minor in Global Health in 2020. Prior to commencing her MPH, she gained valuable experience as a lab manager in the biotech sector, developing a strong foundation in laboratory operations, inventory management, and EHS protocols.
 
+Driven by her passion for public health and a commitment to data-driven decision-making, Selina is on a trajectory to make a meaningful impact in the field. She is dedicated to harnessing her knowledge, skills, and experiences to address complex health challenges, shape effective policies, and contribute to the betterment of health outcomes.
 
-
-More information about Selina's professional background can be found on her [LinkedIn](https://www.linkedin.com/in/selinahsuan/) and [About](about.html) page. 
+More information about Selina's academic and professional background can be found on her [LinkedIn](https://www.linkedin.com/in/selinahsuan/) and [About](about.html) page. A project for Fall 2023 Data Science course can be found on the [Plotly](plotly.html) and [Dashboard](dashboard.html) page. 
 

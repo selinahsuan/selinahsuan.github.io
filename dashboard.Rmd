@@ -46,7 +46,7 @@ instacart |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Hour of Day Order is Placed 
+### Hour of Day Order is Placed
 
 ```{r}
 instacart |>
@@ -60,7 +60,7 @@ instacart |>
   )
 ```
 
-### Average Days Since Prior Order 
+### Average Number of Days Since Prior Order
 
 ```{r}
 instacart |>

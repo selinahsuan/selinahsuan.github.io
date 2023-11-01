@@ -10,7 +10,7 @@ navbar:
     - text: "Plotly"
       href: plotly.html
     - text: "Dashboard"
-      href: dashboard.html
+      href: dashboard.html 
     - text: "LinkedIn"
       href: https://www.linkedin.com/in/selinahsuan/
     - icon: fa-envelope fa-lg

@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# Here is a nice project:
+# Coming soon
 
 
 
