@@ -5,7 +5,7 @@ output:
     toc: true
     toc_float: true
 ---
-![](images/photo.jpeg){width=250px height=250px}
+![](images/photo.jpeg){width=350px height=350px}
 
 Selina is currently pursuing a Master of Public Health (MPH) at Columbia University Mailman School of Public Health. Her academic focus lies within the Health Policy and Management department, with a particular interest in mental health and femtech. She is also actively pursuing a certificate in Applied Biostatistics and Public Health Data Science.
 
