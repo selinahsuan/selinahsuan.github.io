@@ -6,10 +6,9 @@ output:
     toc_float: true
 ---
 
-```{r}
+```{r setup, message=FALSE}
 library(tidyverse)
 library(plotly)
-
 library(p8105.datasets)
 ```
 
@@ -25,38 +24,49 @@ instacart =
   select (department, aisle, order_hour_of_day, order_number, days_since_prior_order)
 ```
 
-# Bar Chart
 
+### Create Bar Chart
 
-Plot bar chart
 ```{r}
 instacart |> 
   count(department) |> 
   filter(department != "missing") |> 
   mutate(department = fct_reorder(department, n)) |> 
   plot_ly (x = ~department, y = ~n, color = ~department,
-         type = "bar", colors = "viridis")
+         type = "bar", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Department"),   
+    yaxis = list(title = "Number of Items") 
+  )
 ```
 
 
-# Box Plot
+### Create Box Plot
 
 ```{r}
 instacart |>
   filter(department != "missing") |> 
   mutate(department = fct_reorder(department, order_hour_of_day)) |>
   plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department,
-          type = "box", colors = "viridis")
+          type = "box", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Department"),   
+    yaxis = list(title = "Order Hour of Day") 
+  )
 ```
 
 
-# Scatter Plot 
+### Create Scatter Plot
 
 ```{r}
 instacart |>
   group_by(order_number) |>
   summarise(avg_days_since_prior_order = mean(days_since_prior_order, na.rm = TRUE)) |> 
   plot_ly(x = ~order_number, y = ~avg_days_since_prior_order, color = ~order_number,
-      type = "scatter", mode = "markers", colors = "viridis")
+      type = "scatter", mode = "markers", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Order Number"),   
+    yaxis = list(title = "Average Days Since Prior Order") 
+  )
 ```
 

@@ -13,13 +13,13 @@ library(plotly)
 library(p8105.datasets)
 ```
 
-Load data
-```{r}
+
+```{r, load data}
 data(instacart)
 ```
 
-Filter data
-```{r}
+
+```{r, filter data}
 instacart = 
   instacart |> 
   select (department, aisle, order_hour_of_day, order_number, days_since_prior_order)
@@ -28,7 +28,7 @@ instacart =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Number of Items Ordered
 
 ```{r}
 instacart |> 
@@ -36,35 +36,42 @@ instacart |>
   filter(department != "missing") |> 
   mutate(department = fct_reorder(department, n)) |> 
   plot_ly (x = ~department, y = ~n, color = ~department,
-         type = "bar", colors = "viridis")
+         type = "bar", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Department"),   
+    yaxis = list(title = "Number of Items") 
+  )
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Hour of Day Order is Placed 
 
 ```{r}
 instacart |>
   filter(department != "missing") |> 
   mutate(department = fct_reorder(department, order_hour_of_day)) |>
   plot_ly(x = ~department, y = ~order_hour_of_day, color = ~department,
-          type = "box", colors = "viridis")
+          type = "box", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Department"),   
+    yaxis = list(title = "Order Hour of Day") 
+  )
 ```
 
-### Chart C
+### Average Days Since Prior Order 
 
 ```{r}
-instacart_avg = 
-  instacart |>
+instacart |>
   group_by(order_number) |>
-  summarise(avg_days_since_prior_order = mean(days_since_prior_order, na.rm = TRUE))
-```
-
-```{r}
-instacart_avg |>
+  summarise(avg_days_since_prior_order = mean(days_since_prior_order, na.rm = TRUE)) |> 
   plot_ly(x = ~order_number, y = ~avg_days_since_prior_order, color = ~order_number,
-      type = "scatter", mode = "markers", colors = "viridis")
+      type = "scatter", mode = "markers", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Order Number"),   
+    yaxis = list(title = "Average Days Since Prior Order") 
+  )
 ```
 
 
